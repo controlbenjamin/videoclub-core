@@ -6,6 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Data\Migrations\20200820152311_CreateTableClientes.cs" />
+    <Compile Remove="Data\Migrations\20200820152311_CreateTableClientes.Designer.cs" />
+    <Compile Remove="Data\Migrations\20200820152437_CreateTableCLientes.cs" />
+    <Compile Remove="Data\Migrations\20200820152437_CreateTableCLientes.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.5" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.5" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.5" />

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using VideoClubCore.Data.Entities;
 
 namespace VideoClubCore.Data
 {
@@ -12,5 +13,7 @@ namespace VideoClubCore.Data
             : base(options)
         {
         }
+
+        public DbSet<Cliente> Clientes { get; set; }
     }
 }
