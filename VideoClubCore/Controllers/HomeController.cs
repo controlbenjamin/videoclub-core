@@ -23,20 +23,6 @@ namespace VideoClubCore.Controllers
 
         public IActionResult Index()
         {
-
-            var valor = _dbContext.Clientes.Where(c => c.Id == 5)
-                .Select(c =>c.Nombres)
-                .FirstOrDefault();
-
-    
-
-            ViewBag.nombre = valor.ToString();
-
-            var model = new ClientesViewModel() {
-                Clientes = _dbContext.Clientes.ToList()
-            };
-
-            ViewBag.lista = model.Clientes;
             return View();
         }
 
@@ -50,5 +36,13 @@ namespace VideoClubCore.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+
+        [Route("~/api/clientes/", Name = "api_clientes")]
+        public IActionResult Api()
+        {
+            return View();
+        }
+
     }
 }
