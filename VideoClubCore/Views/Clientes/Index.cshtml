@@ -1,0 +1,15 @@
+﻿@model VideoClubCore.Models.ClientesViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<ul>
+
+    @foreach (var cliente in Model.Clientes)
+    {
+        <li>@cliente.Apellidos,  @cliente.Nombres </li>
+    }
+
+</ul>
