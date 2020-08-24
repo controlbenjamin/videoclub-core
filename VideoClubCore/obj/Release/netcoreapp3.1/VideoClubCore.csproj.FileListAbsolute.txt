@@ -427,3 +427,7 @@ D:\MoshHamedani\NETCORE\VideoClubCore\VideoClubCore\bin\Release\netcoreapp3.1\Mi
 D:\MoshHamedani\NETCORE\VideoClubCore\VideoClubCore\bin\Release\netcoreapp3.1\System.Text.Json.dll
 D:\MoshHamedani\NETCORE\VideoClubCore\VideoClubCore\obj\Release\netcoreapp3.1\Razor\Views\Home\Api.cshtml.g.cs
 D:\MoshHamedani\NETCORE\VideoClubCore\VideoClubCore\obj\Release\netcoreapp3.1\Razor\Views\Shared\_NavBar.cshtml.g.cs
+D:\MoshHamedani\NETCORE\VideoClubCore\VideoClubCore\bin\Release\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\MoshHamedani\NETCORE\VideoClubCore\VideoClubCore\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\MoshHamedani\NETCORE\VideoClubCore\VideoClubCore\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\MoshHamedani\NETCORE\VideoClubCore\VideoClubCore\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
